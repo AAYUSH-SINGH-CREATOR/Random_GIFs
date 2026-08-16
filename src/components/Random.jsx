@@ -11,7 +11,7 @@ function Random() {
         <div className="bg-green-500 w-9/12 flex flex-col items-center p-3 ">
             <h1 className="text-2xl font-bold text-black mb-2 underline uppercase">A random GIFS</h1>
          
-            <div className=" min-h-50 min-w-100 flex justify-center items-center" >
+            <div className=" min-h-50 flex justify-center items-center" >
    
             {
                 loading? <Spinner/> :  <img src={gif} alt=""/>
